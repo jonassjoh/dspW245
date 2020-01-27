@@ -59,7 +59,7 @@ possible that this step requires the device to be removed from mydlink.
     1. Reset the device into recovery mode by holding the reset button during
   boot. If done correctly, a telnet server should be running on the device.
     2. Connect to the WiFi of the device and open a terminal.
-    3. Run `telnet 192.168.0.20`.
+    3. Run `telnet 192.168.0.20` (default credentials are `admin:123456`).
     4. Run `nvram_set FactoryMode 1`.
     5. Run `reboot; exit;`
 2. If needed. Setup the device with mydlink like normal again.
