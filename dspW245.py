@@ -368,4 +368,4 @@ if __name__ == "__main__":
     sp.set_led(2, False)
     sp.keep_alive()
 
-    c.close()
+    sp.close()
