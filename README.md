@@ -42,7 +42,7 @@ sp.set_socket(1, on=True)
 sp.set_socket(4, on=False)
 
 # Upgrades the firmare to the firmware found at the provided url.
-upgrade_fw("http://example.com/somefirmware")
+sp.upgrade_fw("http://example.com/somefirmware")
 
 # Used to avoid the connection from timing out.
 sp.keep_alive()
