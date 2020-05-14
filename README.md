@@ -3,9 +3,9 @@
 A Python3 library used to interface with the D-Link DSP-W245.
 
 The library is somewhat lacking in terms of what it can do. It could be
-expended to support more operations. It could also be refactored to look
+expanded to support more operations. It could also be refactored to look
 prettier. I might revisit this in the future, but for the time being it is
-atleast capable of turning each socket on and off.
+at least capable of turning each socket on/off.
 
 Any help will gladly be accepted. Don't hesitate to open an issue or submitting
 a pull request.
