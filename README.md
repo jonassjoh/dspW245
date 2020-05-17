@@ -1,6 +1,6 @@
 # dspW245
 
-A Python3 library used to interface with the D-Link DSP-W245.
+A Python3 library used to interface with the D-Link DSP-W245 and DSP-W115.
 
 The library is somewhat lacking in terms of what it can do. It could be
 expanded to support more operations. It could also be refactored to look
