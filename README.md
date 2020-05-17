@@ -2,6 +2,10 @@
 
 A Python3 library used to interface with the D-Link DSP-W245 and DSP-W115.
 
+Please note that some errors might occur when interfacing with the W115 since 
+it seems to return different messages than the W245. To get around this you could
+remove lines 247 to 249 (including).
+
 The library is somewhat lacking in terms of what it can do. It could be
 expanded to support more operations. It could also be refactored to look
 prettier. I might revisit this in the future, but for the time being it is
