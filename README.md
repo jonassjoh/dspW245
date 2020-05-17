@@ -68,7 +68,7 @@ possible that this step requires the device to be removed from mydlink.
     5. Run `reboot; exit;`
 2. If needed. Setup the device with mydlink like normal again.
 3. Run `telnet 192.168.0.20` when connected to the same network as the device.
-4. Run `cat /mydlink/config/device.cfg`. Copy the value for `DeviceToken`.
+4. Run `cat /mydlink/config/device.cfg`. Copy the value for `DeviceToken`. The config file may also be present at `/mnt/user`.
 
 You can then control the device using the token instead.
 
