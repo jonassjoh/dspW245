@@ -95,3 +95,8 @@ Works with the DSP-W245 on firmware versions:
 * `3.3.0-b03`
 
 Works with the DSP-W115 although this potentially requires the removal of lines 247 to 249 (included) (thanks Garfonso).
+
+## Other
+
+A node.js version by @Garfonso can be found be found here: 
+https://github.com/Garfonso/dlinkWebSocketClient
