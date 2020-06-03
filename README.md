@@ -76,6 +76,8 @@ You can then control the device using the token instead.
 sp = SmartPlug(IP, "00A00A000000-511ea125-250b-0dc1-40f0-c6570ebc51a2")
 ```
 
+Note that for the W115 it would seem that the token will reset from time to time.
+
 While the library has only been tested on the W245, it's possible that it will
 still work with other similar models like the W115. If another model than the
 W245 is used, the model can be specified as below:
