@@ -93,8 +93,8 @@ information here.
 
 Works with the DSP-W245 on firmware versions:
 
-* `3.0.0-b45`
-* `3.3.0-b03`
+* `1.00 (3.0.0-b45)`
+* `1.01 (3.3.0-b03)`
 
 Works with the DSP-W115 although this potentially requires the removal of lines 247 to 249 (included) (thanks Garfonso).
 
