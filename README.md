@@ -51,6 +51,7 @@ sp.upgrade_fw("http://example.com/somefirmware")
 # Used to avoid the connection from timing out.
 sp.keep_alive()
 
+# Close the connection.
 sp.close()
 ```
 
