@@ -244,7 +244,7 @@ class SmartPlug:
         data = self.bytes(data)
         r = self.send(data, log)
         r = json.loads(r)
-        if r['code'] != 0:
+        if 'code' in r and r['code'] != 0:
             print("Error ({}): {}".format(r['code'], r['message']))
             exit()
         return r
